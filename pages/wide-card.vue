@@ -1,34 +1,62 @@
 <template>
-<div class=" bg-gray-900 p-2 w-80 max-w-3xl sm:w-full sm:p-4 h-full rounded-2xl shadow-lg flex flex-col sm:flex-row gap-5 select-none">
-    <div
-        style='background: url("https://cdn-products.eneba.com/resized-products/TNVA57HERJBpx6HwHU5cxpXnp0upLCUEXFUBdYSyfvA_350x200_2x-0.jpeg")'
-        class="h-64 w-2/5 rounded-xl bg-gray-100 bg-center bg-cover"
-    >
-    </div>
 
+
+
+
+
+<div class="container mx-auto mt-24">   
+<div class="grid grid-rows-3 grid-flow-col bg-gray-900 rounded-2xl w-1000 h-96 overflow-hidden">
+   <!-- .Image.. -->
+<div class="flex row-span-3 w-500 relative flex-col">
     
-    <div class="">
-       <ul class="flex sm:flex-1 flex-col gap-2 p-1">
-            <li>.</li>
-            <li>.</li>
-            <li>.</li>
-        </ul>
-        <h1 class="text-lg sm:text-xl font-semibold  text-gray-600">
-            Black Widow
-        </h1>
-       
+    <img
+        class="w-full h-full z-10"
+        src="https://cdn.mos.cms.futurecdn.net/4L75tkWVDgKtGe7kfoEGP6.jpg"
+        alt="Black widow"
+    >
+
+    <div class="flex grid grid-cols-3 grid-flow-col gap-8 flex-rows z-10 absolute mt-80">
+        <div class="flex grid-cols-1 flex-rows ml-8 ">
+        <span>icon</span>
+        <p class="text-white text-xs tracking-widest">120</p>
+        </div>
+         <div class="flex grid-rows-2 flex-rows">
+        <span>icon</span>
+        <p class="text-white text-xs tracking-widest">120</p>
+        </div>
+         <div class="flex grid-rows-3 flex-rows">
+
+        <span>icon</span>
+        <p class="text-white text-xsm tracking-widest">Release in 
+        </p>
+        <p class="text-white text-xs tracking-widest">4 Months</p>
+        </div>
     </div>
-    <div >
-        <span class="text-yellow-200">Movie</span>
-        <span class="text-yellow-200">Initial Release</span>
+    </div>
+   
+    <!-- ... -->
+        <div class="flex flex-col gap-8 z-10">
+
+            <div class="flex grid-rows-1 mt-8">
+                <span class="flex text-gray-light uppercase text-xsm font-medium tracking-widest ">
+                    Movie
+                </span>
+                <h2 class="flex text-white text-l leading-10 mt-8">
+                    Black Widow
+                </h2>
+                <span class="flex text-gray-light text-ml tracking-widest mt-8">
+                    International spy and assassin Natasha Romanoff becomes the superhero Black Widow.
+                </span>
+            </div>
+ 
+            <div class="flex grid-rows-2 mt-8">icon</div>
+        
+            <div class="flex grid-rows-3 mb-8">
+                <span>iconoo</span>
+                <p>pera</p>
+            </div>
+        </div>
     </div>
 
-
-
-
-        <NuxtLink to="./card">
-            <TButton>Back</TButton>
-        </NuxtLink>
-</div>
-
+</div>  
 </template>
